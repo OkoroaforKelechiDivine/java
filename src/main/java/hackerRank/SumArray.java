@@ -9,7 +9,6 @@ public class SumArray {
 
         for (int index : numberArray) {
             result = result + index;
-            System.out.println("The sum of the array is: " + result);
         }
         return result;
     }
