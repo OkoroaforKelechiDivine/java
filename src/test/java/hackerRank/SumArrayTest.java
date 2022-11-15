@@ -3,6 +3,7 @@ package hackerRank;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -18,6 +19,7 @@ public class SumArrayTest {
     }
 
     @Test
+    @DisplayName("Sum array")
     public void test_sumArray(){
         int[] numbers = {3, 4, 5};
         int sum = sumArray.simpleArraySum(numbers);
@@ -25,6 +27,7 @@ public class SumArrayTest {
     }
 
     @Test
+    @DisplayName("List array")
     public void test_listArray(){
         List<Integer> listOfNumbers = new ArrayList<>();
         listOfNumbers.add(3);
