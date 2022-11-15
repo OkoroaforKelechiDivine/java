@@ -13,10 +13,10 @@ public class SumArray {
         return result;
     }
 
-    public int simpleListSum(List<Integer> ar){
+    public int simpleListSum(List<Integer> listArray){
         int result = 0;
 
-        for (int index :  ar){
+        for (int index :  listArray){
             result = result + index;
         }
         return result;
