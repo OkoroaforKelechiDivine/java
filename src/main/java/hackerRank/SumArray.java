@@ -14,7 +14,7 @@ public class SumArray {
         return result;
     }
 
-    public int simpleArraySumList(List<Integer> ar){
+    public int simpleListSum(List<Integer> ar){
         int result = 0;
 
         for (int index :  ar){

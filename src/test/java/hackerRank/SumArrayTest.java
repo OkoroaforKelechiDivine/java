@@ -32,7 +32,7 @@ public class SumArrayTest {
         listOfNumbers.add(3);
         listOfNumbers.add(1);
 
-        int sum = sumArray.simpleArraySumList(listOfNumbers);
+        int sum = sumArray.simpleListSum(listOfNumbers);
         Assertions.assertEquals(sum, 12);
     }
 }
