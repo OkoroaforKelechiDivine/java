@@ -18,7 +18,7 @@ public class SumArrayTest {
     }
 
     @Test
-    public void test_test(){
+    public void test_sumArray(){
         int[] numbers = {3, 4, 5};
         int sum = sumArray.simpleArraySum(numbers);
         Assertions.assertEquals(sum, 12);
